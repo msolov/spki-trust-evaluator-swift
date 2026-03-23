@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Xcode build artifacts
+build/
+DerivedData/
+
+# Xcode user-specific data
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+/.build/
+
+# Logs
+*.log
+
+# Local-only configuration and secrets
+.env
+Secrets.swift
+Config.local.swift
